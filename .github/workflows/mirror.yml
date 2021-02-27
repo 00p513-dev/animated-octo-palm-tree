@@ -5,7 +5,7 @@ on: push
 env:
   MIR: wss
   FILENAME: origin.7z
-  URL: "https://alphaone-my.sharepoint.cn/personal/6yunorg_vip_tg/_layouts/15/download.aspx?UniqueId=b3584e4d-c36c-4ed4-bbbc-6757ee2b941e&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYWxwaGFvbmUtbXkuc2hhcmVwb2ludC5jbkAzYjFjODFiMS1kMTU2LTRhZjktYjE2OS1hZTA4MTI4YzAzOTYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjE0NDQ3Mjg4IiwiZXhwIjoiMTYxNDQ1MDg4OCIsImVuZHBvaW50dXJsIjoibHlsQ1ZTRERoNjZhd3AvSXU4ZXY0OFBmZXV4TDdDbXpKWk1vWk9PK2tLaz0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE0NSIsImlzbG9vcGJhY2siOiJUcnVlIiwiY2lkIjoiWWpneU1XSTNaR010TVRGbVlpMDBNalZtTFdGa056a3RPR014WVRSaU9EZGxPR1prIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HWTBNamN5WkdFdE5qazFPQzAwWlRBMExXSXpaRGt0TldJNVptWTJOemM0T1RjMSIsImFwcF9kaXNwbGF5bmFtZSI6InotMzU3Mzk0LXl1bjYiLCJhcHBpZCI6ImNjNzJkZjdhLTE3ZmQtNDEwNi1hMjEzLTI3YTE4M2Q2MDJiOCIsInRpZCI6IjNiMWM4MWIxLWQxNTYtNGFmOS1iMTY5LWFlMDgxMjhjMDM5NiIsInVwbiI6IjZ5dW5vcmdAdmlwLnRnIiwicHVpZCI6IjEwMDMzMjMwQzU3MTZGQzgiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzMzIzMGM1NzE2ZmM4QGxpdmUuY29tIiwic2NwIjoiYWxsZmlsZXMud3JpdGUiLCJ0dCI6IjIiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.bU90YWxsQllsOUNZRTlMMys5NGpZZ2xNYWxISm05dXFKZjVDdkU5QTZLMD0&ApiVersion=2.0"
+  URL: "https://alphaone-my.sharepoint.cn/personal/6yunorg_vip_tg/_layouts/15/download.aspx?UniqueId=b3584e4d-c36c-4ed4-bbbc-6757ee2b941e&Translate=false&tempauth=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYWxwaGFvbmUtbXkuc2hhcmVwb2ludC5jbkAzYjFjODFiMS1kMTU2LTRhZjktYjE2OS1hZTA4MTI4YzAzOTYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjE0NDQ5MTUyIiwiZXhwIjoiMTYxNDQ1Mjc1MiIsImVuZHBvaW50dXJsIjoibHlsQ1ZTRERoNjZhd3AvSXU4ZXY0OFBmZXV4TDdDbXpKWk1vWk9PK2tLaz0iLCJlbmRwb2ludHVybExlbmd0aCI6IjE0NSIsImlzbG9vcGJhY2siOiJUcnVlIiwiY2lkIjoiTVRFM09USTFZamd0WVdSbE9DMDBZalV3TFRsaE1tSXRPREF3TmpjM1pEWXlaR1V6IiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HWTBNamN5WkdFdE5qazFPQzAwWlRBMExXSXpaRGt0TldJNVptWTJOemM0T1RjMSIsImFwcF9kaXNwbGF5bmFtZSI6InotMzU3Mzk0LXl1bjYiLCJhcHBpZCI6ImNjNzJkZjdhLTE3ZmQtNDEwNi1hMjEzLTI3YTE4M2Q2MDJiOCIsInRpZCI6IjNiMWM4MWIxLWQxNTYtNGFmOS1iMTY5LWFlMDgxMjhjMDM5NiIsInVwbiI6IjZ5dW5vcmdAdmlwLnRnIiwicHVpZCI6IjEwMDMzMjMwQzU3MTZGQzgiLCJjYWNoZWtleSI6IjBoLmZ8bWVtYmVyc2hpcHwxMDAzMzIzMGM1NzE2ZmM4QGxpdmUuY29tIiwic2NwIjoiYWxsZmlsZXMud3JpdGUiLCJ0dCI6IjIiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.ZVVVRDhXSmZPTzRUQUlkL09acXJtT2crR0VsaEhyNG5pSVFrYnVaZlF1MD0&ApiVersion=2.0"
   
 jobs:
   build:
@@ -19,10 +19,10 @@ jobs:
        - name: Setup + download
          run: |
               sudo apt install aria2
-              aria2c -x16 --out= $URL
+              aria2c -x16 --out=$FILENAME $URL
               
        - name: artifact
          uses: actions/upload-artifact@v2
          with:
           name: file
-          path: "*.*"
+          path: $FILENAME
