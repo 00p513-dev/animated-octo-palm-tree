@@ -1,8 +1,6 @@
 name: Mirror File
 
-on:
-  watch:
-    types: [started]
+on: push
     
 env:
   MIR: wet
