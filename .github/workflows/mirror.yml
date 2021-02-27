@@ -21,7 +21,8 @@ jobs:
               sudo apt install aria2
               aria2c -x16 --out= $URL
               
-       - name: Upload
-         run: |
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer $MIR *.*
+       - name: artifact
+         uses: actions/upload-artifact@v2
+         with:
+          name: file
+          path: "*.*"
