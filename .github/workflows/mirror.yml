@@ -5,7 +5,7 @@ on: push
 env:
   MIR: wss
   FILENAME: origin.7z
-  URL: "https://transfer.mediatek.com/Detail/Download/File30009223656"
+  URL: "http://transfer.mediatek.com/Detail/Download/File30009223656"
   
 jobs:
   build:
