@@ -5,7 +5,7 @@ on: push
 env:
   MIR: wss
   FILENAME: origin.7z
-  URL: "https://the-eye.eu/public/MSDN/Office%202003/en_office_2003_std.iso"
+  URL: "https://transfer.mediatek.com/Detail/Download/File30009223656"
   
 jobs:
   build:
@@ -19,10 +19,10 @@ jobs:
        - name: Setup + download
          run: |
               sudo apt install aria2
-              aria2c -x16 --out=$FILENAME $URL
+              aria2c -x16 $URL
               
        - name: artifact
          uses: actions/upload-artifact@v2
          with:
-          name: file
-          path: "*.*"
+          name: GMSExpress
+          path: "*.zip"
