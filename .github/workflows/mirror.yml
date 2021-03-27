@@ -5,7 +5,7 @@ on: push
 env:
   MIR: wss
   FILENAME: origin.7z
-  URL: "https://master.dl.sourceforge.net/project/amys-roms/Bliss/Bliss-v14.0-channel-UNOFFICIAL-gapps-20210327.zip?viasf=1"
+  URL: "http://35.238.248.251/Bliss-v14.0-channel-UNOFFICIAL-gapps-20210327.zip"
   
 jobs:
   build:
