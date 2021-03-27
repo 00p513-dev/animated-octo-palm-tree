@@ -5,7 +5,7 @@ on: push
 env:
   MIR: wss
   FILENAME: origin.7z
-  URL: "https://mirrors.lolinet.com/firmware/moto/lake/official/RETAIL/LAKE_RETAIL_10_QPWS30.61-21-9_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip"
+  URL: "https://master.dl.sourceforge.net/project/amys-roms/Bliss/Bliss-v14.0-channel-UNOFFICIAL-gapps-20210327.zip?viasf=1"
   
 jobs:
   build:
@@ -20,10 +20,9 @@ jobs:
          run: |
               sudo apt install aria2
               aria2c -x16 $URL
-              unzip *.zip
               
        - name: artifact
          uses: actions/upload-artifact@v2
          with:
-          name: GMSExpress
-          path: "gpt.bin"
+          name: rum
+          path: "*.zip"
