@@ -5,7 +5,7 @@ on: push
 env:
   MIR: wss
   FILENAME: origin.7z
-  URL: "http://35.238.248.251/Bliss-v14.0-channel-UNOFFICIAL-gapps-20210327.zip"
+  URL: "https://transfer.mediatek.com/Detail/Download/File30009449260"
   
 jobs:
   build:
@@ -25,4 +25,4 @@ jobs:
          uses: actions/upload-artifact@v2
          with:
           name: rum
-          path: "*.zip"
+          path: "*"
